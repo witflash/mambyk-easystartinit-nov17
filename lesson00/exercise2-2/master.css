@@ -1,0 +1,66 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.header	{
+	height: 5em;
+	line-height: 5em;
+	background: teal;
+	padding: 1em;
+}
+
+.navi {
+	width: 20%;
+	height: 40em;
+	background: lightgreen;
+}
+
+.navi.left {
+	float: left;
+}
+
+.navi.right {
+	float: right;
+}
+
+.article {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80%;
+	height: 40em;
+	background: pink;
+	text-align: center;
+}
+
+.article.center {
+	width: 60%;
+	vertical-align: middle;
+}
+
+.footer {
+	height: 3em;
+	background: teal;
+}
+
+.logo {
+	float: left;
+	height: 4em;
+	width: 4em;
+	background: blue;
+}
+
+.title {
+	float: right;
+	height: 4em;
+	width: 20em;
+	background: black;
+}
+
+.content {
+	display: inline-block;
+	width: 8em;
+	height: 8em;
+	background: red;
+	margin: 2em;
+}

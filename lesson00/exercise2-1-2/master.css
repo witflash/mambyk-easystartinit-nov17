@@ -1,0 +1,21 @@
+.container {
+	text-align: center;
+}
+
+.small {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: orange;
+	vertical-align: middle;
+}
+
+.big {
+	display: inline-block;
+	vertical-align: middle;
+	width: 400px;
+	height: 400px;
+	margin: -50px;
+	background-color: lightgreen;
+}
