@@ -64,3 +64,34 @@ body {
 	background: red;
 	margin: 2em;
 }
+
+.float {
+	height: 300px;
+	width: 38%;
+	line-height: 300px;
+	padding: 1%;
+}
+
+.float img{
+	max-height: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.float.left {
+	float: left;
+}
+
+.float.right {
+	float: right;
+}
+
+.simple-text {
+	display: inline-block;
+	background: pink;
+	height: 300px;
+	width: 58%;
+	padding: 1%;
+	margin-bottom: 20px;
+	text-align: center;
+}
